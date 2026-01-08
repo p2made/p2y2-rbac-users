@@ -1,62 +1,44 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+### P2Y2 Composer Package ###
 
-## User settings
-xcuserdata/
+# Composer
+/vendor/
+composer.lock
+composer.phar
 
-## Obj-C/Swift specific
-*.hmap
+# PHPUnit / test artefacts
+/phpunit.xml
+.phpunit.result.cache
+*.cache
 
-## App packaging
-*.ipa
-*.dSYM.zip
-*.dSYM
+# IDEs / editors
+.idea/
+nbproject/
+.project
+.buildpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.bbprojectd
+*.bbproject
 
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
+# OS / filesystem noise
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
-#
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
+# Logs / temp
+*.log
+tmp/
+temp/
 
-.build/
+# Vagrant / Docker (common dev)
+.vagrant/
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
-
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
-Carthage/Build/
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
-
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+# Local scratch / personal folders
+/z_gitignore/
+/z_scratch/
