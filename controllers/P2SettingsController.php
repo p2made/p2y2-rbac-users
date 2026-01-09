@@ -15,6 +15,6 @@ namespace p2m\rbac\controllers;
 
 use Da\User\Controller\SettingsController as UsuarioSettingsController;
 
-final class P2SettingsController extends UsuarioSettingsController
+class P2SettingsController extends UsuarioSettingsController
 {
 }

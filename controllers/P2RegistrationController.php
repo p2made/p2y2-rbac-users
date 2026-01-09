@@ -15,6 +15,6 @@ namespace p2m\rbac\controllers;
 
 use Da\User\Controller\RegistrationController as UsuarioRegistrationController;
 
-final class P2RegistrationController extends UsuarioRegistrationController
+class P2RegistrationController extends UsuarioRegistrationController
 {
 }

@@ -15,6 +15,6 @@ namespace p2m\rbac\controllers;
 
 use Da\User\Controller\PermissionController as UsuarioPermissionController;
 
-final class P2PermissionController extends UsuarioPermissionController
+class P2PermissionController extends UsuarioPermissionController
 {
 }

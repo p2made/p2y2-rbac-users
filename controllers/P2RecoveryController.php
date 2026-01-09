@@ -15,6 +15,6 @@ namespace p2m\rbac\controllers;
 
 use Da\User\Controller\RecoveryController as UsuarioRecoveryController;
 
-final class P2RecoveryController extends UsuarioRecoveryController
+class P2RecoveryController extends UsuarioRecoveryController
 {
 }

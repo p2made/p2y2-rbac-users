@@ -15,6 +15,6 @@ namespace p2m\rbac\controllers;
 
 use Da\User\Controller\RuleController as UsuarioRuleController;
 
-final class P2RuleController extends UsuarioRuleController
+class P2RuleController extends UsuarioRuleController
 {
 }

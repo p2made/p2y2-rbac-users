@@ -15,6 +15,6 @@ namespace p2m\rbac\controllers;
 
 use Da\User\Controller\SecurityController as UsuarioSecurityController;
 
-final class P2SecurityController extends UsuarioSecurityController
+class P2SecurityController extends UsuarioSecurityController
 {
 }

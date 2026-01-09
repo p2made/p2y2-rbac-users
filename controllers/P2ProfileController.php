@@ -15,6 +15,6 @@ namespace p2m\rbac\controllers;
 
 use Da\User\Controller\ProfileController as UsuarioProfileController;
 
-final class P2ProfileController extends UsuarioProfileController
+class P2ProfileController extends UsuarioProfileController
 {
 }

@@ -15,6 +15,6 @@ namespace p2m\rbac\controllers;
 
 use Da\User\Controller\AbstractAuthItemController as UsuarioAbstractAuthItemController;
 
-final class P2AbstractAuthItemController extends UsuarioAbstractAuthItemController
+class P2AbstractAuthItemController extends UsuarioAbstractAuthItemController
 {
 }

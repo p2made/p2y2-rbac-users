@@ -15,6 +15,6 @@ namespace p2m\rbac\api\controllers;
 
 use Da\User\Controller\api\v1\AdminController as UsuarioAdminController;
 
-final class P2AdminController extends UsuarioAdminController
+class P2AdminController extends UsuarioAdminController
 {
 }

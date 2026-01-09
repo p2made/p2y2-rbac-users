@@ -15,6 +15,6 @@ namespace p2m\rbac\controllers;
 
 use Da\User\Controller\RoleController as UsuarioRoleController;
 
-final class P2RoleController extends UsuarioRoleController
+class P2RoleController extends UsuarioRoleController
 {
 }
