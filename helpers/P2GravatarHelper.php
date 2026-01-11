@@ -46,12 +46,12 @@ final class P2GravatarHelper
 			return '';
 		}
 
-		$username = $user->username ?? Yii::t('p2m.rbac', 'User');
+		$username = $user->username ?? Yii::t('p2m.rbac.a11y', 'User');
 
 		$defaults = [
 			'class' => 'img-fluid rounded-circle',
 			'alt' => Yii::t(
-				'p2m.rbac',
+				'p2m.rbac.a11y',
 				'Profile photo of {username}',
 				['username' => $username]
 			),
@@ -66,7 +66,7 @@ final class P2GravatarHelper
 	public static function imgByEmail(string $email, array $options = [], int $size = 64, string $default = 'mp'): string
 	{
 		$defaults = [
-			'alt' => Yii::t('p2m.rbac', 'User avatar'),
+			'alt' => Yii::t('p2m.rbac.a11y', 'User avatar'),
 		];
 
 		return Html::img(

@@ -30,6 +30,9 @@
 		"psr-4": {
 			"p2m\\rbac\\": ""
 		}
-	}
-}
-
+	},
+	"extra": {
+		"yii\\extension": {
+			"bootstrap": "p2m\\rbac\\i18n\\Bootstrap"
+		}
+	}}
