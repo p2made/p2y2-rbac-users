@@ -11,6 +11,13 @@
  * @class \p2m\rbac\helpers\P2GravatarHelper
  */
 
+/**
+ * Usage:
+ * use p2m\rbac\helpers\P2GravatarHelper;
+ * P2GravatarHelper::img(object $user, array $options = [], int $size = 200, string $default = 'mp')
+ * P2GravatarHelper::imgByEmail(string $email, array $options = [], int $size = 64, string $default = 'mp')
+ */
+
 namespace p2m\rbac\helpers;
 
 use Yii;
