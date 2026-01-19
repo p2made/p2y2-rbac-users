@@ -35,4 +35,5 @@
 		"yii\\extension": {
 			"bootstrap": "p2m\\rbac\\i18n\\Bootstrap"
 		}
-	}}
+	}
+}
