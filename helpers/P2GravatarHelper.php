@@ -21,7 +21,7 @@
 namespace p2m\rbac\helpers;
 
 use Yii;
-use yii\helpers\Html;
+use yii\bootstrap5\Html;
 
 final class P2GravatarHelper
 {
